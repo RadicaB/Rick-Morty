@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+} 
+
+
+body {
+    background: url(/img/rick-and-morty-space-cruiser.jpg) no-repeat center center fixed;
+    /*background-position: center;*/
+    background-size: cover;
+    padding: 10px 10px 10 px;
+    margin-top: 20 px;
+}
+
+footer {
+    width: 100%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+}
+
+#previous {
+    display: none;
+}
+
+#next {
+    width:6.4rem;
+}
+
+#details {
+    width: 50%;
+}
+
+.animation.card {
+  width: 20rem;
+}
+
+.ops {
+    background-image: var(--bs-gradient);
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+    border-radius: 1%;
+    display:flex;
+    _width: 70%;
+    
+}
+
+.col-md-8 {
+    width: 30rem;
+}
+
+footer {
+    margin-top: 30em;
+}
+
+img {
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:2560px){
+    .col-md-8 {
+       _width: 30rem;
+    }
+
+    .ops {
+        width: 80%;
+        padding: 0 3rem;
+    }
+
+    body {
+        font-size: 1.4em;
+    }
+
+    .page-link {
+        padding: 0.5rem;
+        font-size: 1.4rem;
+        width: 8rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .page-link {
+        padding: 0.4rem;
+        font-size: 1.1rem;
+        width: 6.5rem;
+        text-align: center;
+    }
+
+    body {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .ops {
+        width: 1000%;
+    }
+}
+
+@media screen and (max-width: 768){
+    footer {
+        margin-top: 30em;;
+    }
+    
+}
+
+@media screen and (max-width: 560px){
+    .page-link {
+        _padding: 0.4rem;
+        font-size: 0.9rem;
+        width: 6rem;
+        text-align: center;
+    }
+
+    body {
+        font-size: 1em;
+    }
+
+    .ops {
+        padding: 0;
+    }
+
+    .col-md-8 {
+        width: 90%;
+    }
+
+    footer {
+        margin-top: 35em;;
+    }
+}

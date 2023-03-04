@@ -109,3 +109,5 @@ function alphabetize([a, b, c]) {
 };
 console.log(alphabetize(first, second, third));
 
+/*4.*/
+
